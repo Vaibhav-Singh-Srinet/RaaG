@@ -1,22 +1,23 @@
-const form = document.getElementById("loginForm")
+const form = document.getElementById("loginForm");
 
 form.addEventListener("submit", function(e){
 
-e.preventDefault()
+e.preventDefault();
 
-const email = document.getElementById("email").value
-const password = document.getElementById("password").value
+const email = document.getElementById("email").value;
+const password = document.getElementById("password").value;
 
 if(email === "" || password === ""){
-
-alert("Please fill all fields")
-
-return
-
+alert("Please fill all fields");
+return;
 }
 
-alert("Login Successful 🎵 Welcome to MusicVilla!")
+// store user info (simple frontend simulation)
 
-window.location.href="index.html"
+localStorage.setItem("userEmail", email);
 
-})
+alert("Login Successful 🎵");
+
+window.location.href = "dashboard.html";
+
+});

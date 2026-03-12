@@ -29,7 +29,7 @@ flex-wrap:wrap;
 
 .logo{
 font-size:28px;
-color:#FA8128;
+color:#c084fc;
 }
 
 nav ul{
@@ -48,11 +48,11 @@ transition:0.3s;
 }
 
 nav ul li a:hover{
-color:#FA8128;
+color:#a3d5e1;
 }
 
 .btn{
-background:#FA8128;
+background:#c084fc;
 padding:8px 16px;
 border-radius:20px;
 }
@@ -75,7 +75,7 @@ background-position:center;
 
 .hero-text h2{
 font-size:50px;
-color:#a3d5e1;
+color:#c084fc;
 }
 
 .hero-text p{
@@ -86,11 +86,10 @@ font-size:20px;
 .hero-btn{
 display:inline-block;
 margin-top:20px;
-color:#a3d5e1;
-background:;
+background:#c084fc;
 padding:12px 25px;
 border-radius:25px;
-color:white;
+color:#0d0d0d;
 text-decoration:none;
 transition:0.4s;
 }
@@ -108,7 +107,7 @@ text-align:center;
 }
 
 .features h2{
-color:#FA8128;
+color:#c084fc;
 }
 
 .feature-container{
@@ -128,11 +127,11 @@ border:1px solid #222;
 
 .card:hover{
 transform:translateY(-10px);
-border-color:#FA8128;
+border-color:#c084fc;
 }
 
 .card h3{
-color:#FA8128;
+color:#c084fc;
 }
 
 
@@ -146,7 +145,7 @@ line-height:1.7;
 
 .about h2{
 margin-bottom:25px;
-color:#FA8128;
+color:#c084fc;
 }
 
 
@@ -203,7 +202,7 @@ gap:25px;
 background:#111;
 padding:20px;
 border-radius:10px;
-border-left:4px solid #FA8128;
+border-left:4px solid #c084fc;
 }
 
 .event-card img{
@@ -224,7 +223,7 @@ text-align:center;
 }
 
 .cta h2{
-color:#FA8128;
+color:#c084fc;
 }
 
 
@@ -237,7 +236,7 @@ background:#0d0d0d;
 }
 
 .contact h2{
-color:#FA8128;
+color:#c084fc;
 margin-bottom:20px;
 }
 

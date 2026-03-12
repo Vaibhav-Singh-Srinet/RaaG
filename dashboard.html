@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>RaaG Dashboard</title>
+
+<link rel="stylesheet" href="dashboard.css">
+
+</head>
+
+<body>
+
+<div class="navbar">
+
+<div class="logo">RaaG</div>
+
+<button class="logout-btn" onclick="logout()">Logout</button>
+
+</div>
+
+<div class="dashboard">
+
+<h1>Welcome to RaaG 🎵</h1>
+
+<p id="userEmail"></p>
+
+<div class="cards">
+
+<a href="profile.html" class="card">
+<h3>Create Artist Profile</h3>
+<p>Add your music skills and instruments.</p>
+</a>
+
+<a href="#" class="card">
+<h3>Find Bands</h3>
+<p>Collaborate with singers and bands.</p>
+</a>
+
+<a href="#" class="card">
+<h3>Upcoming Events</h3>
+<p>Discover concerts and performances.</p>
+</a>
+
+<a href="upload.html" class="card">
+<h3>Upload Music</h3>
+<p>Share your audio recordings.</p>
+</a>
+
+</div>
+
+</div>
+
+<script>
+
+const email = localStorage.getItem("userEmail");
+
+document.getElementById("userEmail").innerText = "Logged in as: " + email;
+
+function logout(){
+
+localStorage.removeItem("userEmail");
+
+window.location.href = "index.html";
+
+}
+
+</script>
+
+</body>
+
+</html>
