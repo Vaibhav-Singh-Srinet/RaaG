@@ -1,0 +1,152 @@
+body{
+margin:0;
+font-family:Segoe UI;
+background:black;
+color:white;
+}
+
+/* NAVBAR */
+
+.navbar{
+background:#111;
+padding:15px 40px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+color:#c084fc;
+font-size:24px;
+font-weight:bold;
+}
+
+.back-btn{
+background:#9333ea;
+color:white;
+padding:8px 18px;
+border-radius:20px;
+text-decoration:none;
+transition:0.3s;
+}
+
+.back-btn:hover{
+background:#7e22ce;
+}
+
+/* PROFILE CARD */
+
+.profile-container{
+
+max-width:500px;
+
+margin:auto;
+margin-top:60px;
+
+background:#111;
+
+padding:40px;
+
+border-radius:12px;
+
+box-shadow:0 0 20px rgba(147,51,234,0.5);
+
+text-align:center;
+
+animation:slideUp 0.6s ease;
+
+}
+
+.subtitle{
+color:#bbb;
+margin-bottom:20px;
+}
+
+/* INPUTS */
+
+input, textarea{
+
+width:100%;
+padding:12px;
+
+margin:10px 0;
+
+border:none;
+
+border-radius:6px;
+
+background:#1a1a1a;
+
+color:white;
+
+}
+
+textarea{
+height:100px;
+}
+
+/* PROFILE IMAGE */
+
+.profile-pic img{
+
+width:120px;
+height:120px;
+
+border-radius:50%;
+
+border:3px solid #9333ea;
+
+object-fit:cover;
+
+margin-bottom:10px;
+
+}
+
+/* BUTTON */
+
+.create-btn{
+
+width:100%;
+padding:12px;
+
+margin-top:10px;
+
+background:linear-gradient(45deg,#9333ea,#c084fc);
+
+border:none;
+
+border-radius:25px;
+
+color:white;
+
+font-size:16px;
+
+cursor:pointer;
+
+transition:0.3s;
+
+}
+
+.create-btn:hover{
+
+transform:scale(1.05);
+
+box-shadow:0 0 15px #9333ea;
+
+}
+
+/* ANIMATION */
+
+@keyframes slideUp{
+
+from{
+opacity:0;
+transform:translateY(40px);
+}
+
+to{
+opacity:1;
+transform:translateY(0);
+}
+
+}

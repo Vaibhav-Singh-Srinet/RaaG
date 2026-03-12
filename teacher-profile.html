@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Create Teacher Profile</title>
+
+<link rel="stylesheet" href="teacher-profile.css">
+
+</head>
+
+<body>
+
+<div class="navbar">
+
+<div class="logo">RaaG</div>
+
+<a href="dashboard.html" class="back-btn">⬅ Dashboard</a>
+
+</div>
+
+<div class="profile-container">
+
+<h1>Create Teacher Profile</h1>
+<p class="subtitle">Share your musical knowledge with the world</p>
+
+<form id="teacherForm">
+
+<div class="profile-pic">
+
+<img id="preview" src="https://via.placeholder.com/120">
+
+<input type="file" id="imageUpload">
+
+</div>
+
+<input type="text" id="username" placeholder="Teacher Username" required>
+
+<textarea id="bio" placeholder="Tell students about yourself"></textarea>
+
+<input type="text" id="qualification" placeholder="Qualifications (Music Degree etc)">
+
+<input type="text" id="instrument" placeholder="Instrument / Art Mastered">
+
+<input type="text" id="experience" placeholder="Years of Teaching Experience">
+
+<button type="submit" class="create-btn">Create Teacher Profile</button>
+
+</form>
+
+</div>
+
+<script src="teacher-profile.js"></script>
+
+</body>
+</html>

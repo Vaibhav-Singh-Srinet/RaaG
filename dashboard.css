@@ -3,6 +3,8 @@ margin:0;
 font-family:Segoe UI;
 background:black;
 color:white;
+background-image:url(picture/t6.jpeg) ;
+background-size: cover;
 }
 
 /* NAVBAR */
@@ -38,12 +40,12 @@ background:#7e22ce;
 /* DASHBOARD */
 
 .dashboard{
-padding:40px;
+padding:60px;
 text-align:center;
 }
 
 .cards{
-margin-top:40px;
+margin-top:100px;
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
 gap:25px;
