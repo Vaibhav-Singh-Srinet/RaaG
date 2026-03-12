@@ -65,3 +65,34 @@ display:block;
 transform:translateY(-8px);
 box-shadow:0 0 15px #9333ea;
 }
+
+.nav-buttons{
+display:flex;
+gap:15px;
+align-items:center;
+}
+
+.nav-btn{
+
+text-decoration:none;
+
+background:#9333ea;
+
+color:white;
+
+padding:8px 16px;
+
+border-radius:20px;
+
+font-size:14px;
+
+transition:0.3s;
+
+}
+
+.nav-btn:hover{
+
+background:#7e22ce;
+transform:scale(1.05);
+
+}
