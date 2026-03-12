@@ -28,7 +28,7 @@
 <h1>Create Your Artist Profile</h1>
 <p class="subtitle">Show the world your musical talent</p>
 
-<form class="profile-form">
+<form id="profileForm" class="profile-form">
 
 <div class="profile-pic">
 
@@ -38,38 +38,23 @@
 
 </div>
 
-<input type="text" placeholder="Artist Username" required>
+<input type="text" id="username" placeholder="Artist Username" required>
 
-<textarea placeholder="Tell us about yourself and your music journey"></textarea>
+<textarea id="bio" placeholder="Tell us about yourself and your music journey"></textarea>
 
-<input type="text" placeholder="Your Skills (Singer, Guitar, Tabla etc.)">
+<input type="text" id="skills" placeholder="Your Skills (Singer, Guitar, Tabla etc.)">
 
-<input type="text" placeholder="City / Location">
+<input type="text" id="location" placeholder="City / Location">
 
-<button class="create-btn">Create Profile</button>
+<button type="submit" class="create-btn">Create Profile</button>
 
 </form>
 
+<p id="successMessage"></p>
+
 </div>
 
-<script>
-
-const upload = document.getElementById("imageUpload")
-const preview = document.getElementById("preview")
-
-upload.addEventListener("change", function(){
-
-const file = this.files[0]
-
-if(file){
-
-preview.src = URL.createObjectURL(file)
-
-}
-
-})
-
-</script>
+<script src="profile.js"></script>
 
 </body>
 
