@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Upload Music | RaaG</title>
+  <link rel="stylesheet" href="upload-music.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">RaaG</div>
+    <a href="dashboard.html" class="back-btn">← Back to Dashboard</a>
+  </nav>
+
+  <section class="upload-section">
+    <div class="upload-card">
+      <h1 class="title">Upload Your Performance</h1>
+      <p class="subtitle">
+        Share your video and get personalised feedback from verified teachers on RaaG.
+      </p>
+
+      <form id="uploadForm">
+        <div class="input-group">
+          <label for="songTitle">Song / Piece Title</label>
+          <input type="text" id="songTitle" placeholder="e.g. Tum Hi Ho cover" required>
+        </div>
+
+        <div class="input-group">
+          <label for="instrument">Instrument / Vocal Type</label>
+          <input type="text" id="instrument" placeholder="e.g. Vocal, Guitar, Piano" required>
+        </div>
+
+        <div class="input-group">
+          <label for="goals">What kind of feedback do you want?</label>
+          <textarea id="goals" placeholder="Pitch, rhythm, expression, stage presence, etc."></textarea>
+        </div>
+
+        <div class="file-group">
+          <label class="file-label" for="videoFile">
+            <span class="file-main-text">Click to select your performance video</span>
+            <span class="file-sub-text" id="fileName">MP4 / MOV / WebM up to 200MB</span>
+          </label>
+          <input type="file" id="videoFile" accept="video/*" required>
+        </div>
+
+        <div class="preview-container" id="previewContainer">
+          <video id="videoPreview" controls></video>
+        </div>
+
+        <button type="submit" class="submit-btn">Submit for Evaluation</button>
+      </form>
+
+      <div id="successMessage"></div>
+
+      <div class="info-strip">
+        <div class="info-pill">⏱ Average response: within 48 hours</div>
+        <div class="info-pill">🎧 Reviewed by registered teachers</div>
+        <div class="info-pill">📩 Feedback sent to your email</div>
+      </div>
+    </div>
+  </section>
+
+  <script src="upload-music.js"></script>
+</body>
+</html>

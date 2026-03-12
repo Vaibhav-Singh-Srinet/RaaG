@@ -40,12 +40,12 @@ background:#7e22ce;
 /* DASHBOARD */
 
 .dashboard{
-padding:60px;
+padding:40px;
 text-align:center;
 }
 
 .cards{
-margin-top:100px;
+margin-top:75px;
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
 gap:25px;
