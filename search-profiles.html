@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Search Profiles | RaaG</title>
+  <link rel="stylesheet" href="search-profiles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">RaaG</div>
+    <a href="dashboard.html" class="back-btn">← Back to Dashboard</a>
+  </nav>
+
+  <section class="search-section">
+    <h1 class="page-title">Find Artists & Teachers</h1>
+    
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Search by name, instrument, city...">
+      <button id="searchBtn">🔍 Search</button>
+    </div>
+
+    <div class="results-info" id="resultsInfo">
+      Showing <span id="totalCount">20</span> profiles
+    </div>
+
+    <div class="profiles-grid" id="profilesGrid">
+      <!-- Profiles loaded by JS -->
+    </div>
+  </section>
+
+  <script src="search-profiles.js"></script>
+</body>
+</html>
