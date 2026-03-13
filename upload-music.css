@@ -38,10 +38,36 @@ body::before {
 }
 
 .logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;              /* space between icon and text */
+  font-size: 28px;
+  font-weight: 900;
   color: #c084fc;
-  font-size: 24px;
-  font-weight: bold;
+  text-decoration: none;
 }
+
+/* LOGO ICON */
+.logo-icon {
+  width: 36px;           /* perfect size */
+  height: 36px;
+  border-radius: 8px;    /* slight rounded corners */
+  box-shadow: 0 0 15px rgba(192,132,252,0.6);  /* purple glow */
+  transition: 0.3s;
+}
+
+.logo:hover .logo-icon {
+  transform: scale(1.1); /* hover zoom */
+  box-shadow: 0 0 25px rgba(192,132,252,0.9);
+}
+
+/* Text glow (from previous) */
+.logo {
+  text-shadow: 
+    0 0 10px rgba(192,132,252,0.8),
+    0 2px 8px rgba(0,0,0,0.8);
+}
+
 
 .back-btn {
   color: white;
