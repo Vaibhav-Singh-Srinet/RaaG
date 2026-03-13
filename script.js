@@ -58,15 +58,7 @@ activeLink.classList.add("active")
 
 // Button click animation
 
-document.querySelectorAll(".hero-btn").forEach(btn => {
 
-btn.addEventListener("click", ()=>{
-
-alert("Welcome to MusicVilla! Create your profile to start your music journey 🎵")
-
-})
-
-})
 
 
 

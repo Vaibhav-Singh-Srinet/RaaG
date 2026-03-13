@@ -16,7 +16,7 @@ return;
 
 localStorage.setItem("userEmail", email);
 
-alert("Login Successful 🎵");
+//alert("Login Successful 🎵");
 
 window.location.href = "dashboard.html";
 
