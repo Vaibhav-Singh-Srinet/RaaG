@@ -98,7 +98,7 @@ animation:fadeIn 1s ease;
 
 @keyframes glowPulse {
   0%, 100% { opacity: 0.7; }
-  50% { opacity: 1; }5
+  50% { opacity: 1; }
 }
 
 
@@ -151,7 +151,7 @@ transition:0.3s;
 .input-group input:focus + label,
 .input-group input:valid + label{
 
-top:-10px;
+top:-20px;
 left:8px;
 
 font-size:12px;
