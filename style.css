@@ -70,6 +70,12 @@ nav ul li{
 margin-left:20px;
 }
 
+nav ul li a.active {
+  color: #c084fc !important;
+  border-bottom: 2px solid #c084fc;
+  padding-bottom: 4px;
+}
+
 nav ul li a{
 color:white;
 text-decoration:none;
